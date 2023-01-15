@@ -146,7 +146,7 @@ def students_performance(students_list, course_name):
 
 print(students_performance(students_list, 'Java'))
 
-def lecturers_perfomance(lecturers_list, lecturers_grade):
+def lecturers_perfomance(lecturers_list, course_name):
     marks_total = 0
     grade_total = 0
     for lect in lecturers_list:
