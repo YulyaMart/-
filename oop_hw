@@ -159,4 +159,4 @@ def lecturers_perfomance(lecturers_list, course_name):
     else:
         return str(f'По курсу {course_name} никто из лекторов еще не получал оценки за лекции')
 
-print(students_performance(lecturers_list, 'Java'))
+print(lecturers_perfomance(lecturers_list, 'CSS'))
